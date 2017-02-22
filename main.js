@@ -27,9 +27,12 @@ let languages = {
 };
 
 //Write task #1 code below
+let moreLanguages = Object.assign(languages, {
+    isolates: [ 'Korean', 'Basque' ],
+    Germanic: [ 'Swedish', 'Danish', 'English' ]
+});
 
-
-
+console.log(moreLanguages);
 
 /*
 Task #2
